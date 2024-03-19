@@ -1,0 +1,41 @@
+SELECTORS -  refers to the html where the CSS will be applied
+
+Universal Selector
+* {
+    color:purple;
+}
+
+
+Type Selector (2nd example) - the div elements would be selected
+the <p> would not.
+<div>Hello world!</div>
+<p> Hi...>/p>
+
+*/ styles.css */
+div {
+    color:white;
+}
+
+
+Class Selector - Select all elements with the given class.
+Note the period in the css file.
+<div class = 'alert-text'>Please agree to terms of service</div>
+
+*/ styles.css */
+.alert-text {
+    color: red;
+}
+
+
+ID selector - similar to class selectors. However, an element can have only ONE id.
+<div id = 'title'>Read my Book</div>
+
+#title {
+    background-color: red;
+}
+
+
+Grouping Selector - You can group on certain css styles if two
+things have similarites in styling. Just cuts down on 
+repitition.
+
